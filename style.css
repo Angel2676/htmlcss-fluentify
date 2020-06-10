@@ -1,0 +1,290 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+    width: 100vw;
+    height: 500px;
+    margin: 0 auto;
+    background-color: #0d325a;
+    min-width: 1200px;
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    padding: 10px 40px 10px 40px;
+    background-color: #0d325a;
+}
+
+.logoflue {
+    width: 10vw;
+    /* togliere altezza */
+    height: 230PX;
+    float: left;
+}
+
+.menunav {
+    width: 50vw;
+    /* togliere altezza */
+    /* height: 230px; */
+    float: left;
+}
+
+ol {
+    line-height: 50px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    padding-left: 10px;
+}
+
+ol li{
+    display: inline-block;
+    padding-left: 2%;
+
+}
+
+.posright{
+    width: 30vw;
+    float: left;
+    display: inline-block;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    padding-left: 55px;
+    line-height: 50px;
+
+}
+
+
+section{
+    width: 100%;
+    height: 430px;
+    padding: 0 3%;
+    background-color: #0d325a;
+}
+
+.logo-title {
+    width: 50%;
+    height: 330px;
+    font-family: sans-serif;
+    font-size: 40px;
+    color: white;
+    position: relative;
+    text-transform: lowercase;
+
+}
+
+h1 {
+    text-align: left;
+    position: absolute;
+    left:0;
+    top:20%;
+}
+
+.comand {
+    position: absolute;
+    left:0;
+    top:80%;
+
+}
+
+.mainimg {
+    width: 50%;
+    top:0;
+}
+
+.sfondo {
+    width: auto;
+    height: 430px;
+    position: absolute;
+    left:25%;
+    top:8%;
+    /* left:400px;
+    top:70px; */
+}
+
+.subsection {
+    width: 100%;
+    height: 150px;
+    padding: 0 5%;
+    background-color: #f9f9f9;
+    position: relative;
+}
+
+h2 {
+text-align: center;
+/* line-height: 300px; */
+position: absolute;
+font-family: sans-serif;
+font-size: 30px;
+top:40%;
+left:50%;
+transform: translate(-50%, -50%);
+}
+
+h3 {
+    text-align: center;
+    /* line-height: 300px; */
+    position: absolute;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: lighter;
+    top:60%;
+    left:20%
+
+
+}
+
+main {
+    width: 100vw;
+    height: 1200px;
+    margin: 0 auto;
+    /* padding: 0 3%; */
+    /* background-color: red; */
+    /* background-color: #ffffff; */
+}
+.container-up {
+    width: 100vw;
+    height: 600px;
+
+
+}
+
+.left {
+    width: 33.3333%;
+    height: 600px;
+    float: left;
+    /* background-color: red; */
+}
+
+.left img{
+    position: relative;
+    width: 40%;
+    top: 10%;
+    left: 30%;
+    margin-bottom: 45px;
+
+}
+
+.center {
+    width: 33.3333%;
+    height: 600px;
+    float: left;
+    /* background-color: red; */
+}
+
+.center img{
+    position: relative;
+    width: 70%;
+    top: 10%;
+    left: 20%;
+    margin-bottom: 40px;
+
+}
+
+.text1 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 30px;
+    color: #7fb802;
+    margin-bottom: 20px;
+}
+
+.text2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #b2b2b2;
+    line-height: 35px;
+    padding: 0 20px;
+}
+
+hr {
+    width: 32px;
+    border-top:2px solid black;
+    margin: 40px auto;
+
+}
+
+
+
+.right {
+    width: 33.3333%;
+    height: 600px;
+    float: left;
+    /* background-color: red; */
+}
+
+.right img{
+    position: relative;
+    width: 55%;
+    top: 10%;
+    left: 20%;
+    margin-bottom: 13px;
+
+}
+
+.container-down {
+    width: 100vw;
+    margin-top: 90px;
+
+}
+
+.chart{
+    width: 50%;
+    float: left;
+
+
+}
+
+.design {
+    width: auto;
+    height: 400px;
+}
+
+
+.description {
+    width: 50%;
+    /* height: 300px; */
+    float: left;
+
+
+}
+
+.testx {
+    text-align: left;
+    font-size: 40px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.testx1 {
+    text-align: left;
+    font-size: 25px;
+    font-family: sans-serif;;
+}
+
+
+
+
+
+
+
+footer {
+    width: 100vw;
+    height: 200px;
+    margin: 0 auto;
+    padding: 0 10%;
+    background-color: green;
+    }
